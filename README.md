@@ -255,6 +255,22 @@ for ( i = 0; i < data.length; i++ ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/incr/grubbs`][@stdlib/stats/incr/grubbs]: grubbs' test for outliers.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -315,6 +331,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [@grubbs:1950a]: https://doi.org/10.1214/aoms/1177729885
 
 [@grubbs:1969a]: https://doi.org/10.1080/00401706.1969.10490657
+
+<!-- <related-links> -->
+
+[@stdlib/stats/incr/grubbs]: https://github.com/stdlib-js/stats-incr-grubbs
+
+<!-- </related-links> -->
 
 </section>
 
