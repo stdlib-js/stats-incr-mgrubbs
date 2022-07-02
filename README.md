@@ -125,7 +125,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.incrmgrubbs;
+})();
 })();
 </script>
 ```
@@ -223,6 +225,7 @@ The `print` method accepts the following options:
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgrubbs@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var data;
 var opts;
@@ -258,6 +261,7 @@ for ( i = 0; i < data.length; i++ ) {
     }
 }
 
+})();
 })();
 </script>
 </body>
@@ -372,7 +376,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/grubbs]: https://github.com/stdlib-js/stats-incr-grubbs/tree/umd
+[@stdlib/stats/incr/grubbs]: https://github.com/stdlib-js/stats-incr-grubbs/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
