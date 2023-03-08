@@ -35,10 +35,14 @@ For a window of size `W`, the [Grubbs' test][grubbs-test] statistic for a two-si
 
 <!-- <equation class="equation" label="eq:grubbs_test_statistic" align="center" raw="G = \frac{\max_{i=0,\ldots,W-1} |Y_i - \bar{Y}|}{s}" alt="Grubbs' test statistic."> -->
 
-<div class="equation" align="center" data-raw-text="G = \frac{\max_{i=0,\ldots,W-1} |Y_i - \bar{Y}|}{s}" data-equation="eq:grubbs_test_statistic">
+```math
+G = \frac{\max_{i=0,\ldots,W-1} |Y_i - \bar{Y}|}{s}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="G = \frac{\max_{i=0,\ldots,W-1} |Y_i - \bar{Y}|}{s}" data-equation="eq:grubbs_test_statistic">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@d157db87026794d6fab579039be09a8916cad4e0/lib/node_modules/@stdlib/stats/incr/mgrubbs/docs/img/equation_grubbs_test_statistic.svg" alt="Grubbs' test statistic.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -48,10 +52,14 @@ The [Grubbs' test][grubbs-test] statistic for the alternative hypothesis that th
 
 <!-- <equation class="equation" label="eq:grubbs_test_statistic_min" align="center" raw="G = \frac{\bar{Y} - Y_{\textrm{min}}}{s}" alt="Grubbs' test statistic for testing whether the minimum value is an outlier."> -->
 
-<div class="equation" align="center" data-raw-text="G = \frac{\bar{Y} - Y_{\textrm{min}}}{s}" data-equation="eq:grubbs_test_statistic_min">
+```math
+G = \frac{\bar{Y} - Y_{\textrm{min}}}{s}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="G = \frac{\bar{Y} - Y_{\textrm{min}}}{s}" data-equation="eq:grubbs_test_statistic_min">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@d157db87026794d6fab579039be09a8916cad4e0/lib/node_modules/@stdlib/stats/incr/mgrubbs/docs/img/equation_grubbs_test_statistic_min.svg" alt="Grubbs' test statistic for testing whether the minimum value is an outlier.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -59,10 +67,14 @@ The [Grubbs' test][grubbs-test] statistic for the alternative hypothesis that th
 
 <!-- <equation class="equation" label="eq:grubbs_test_statistic_max" align="center" raw="G = \frac{Y_{\textrm{max}} - \bar{Y}}{s}" alt="Grubbs' test statistic for testing whether the maximum value is an outlier."> -->
 
-<div class="equation" align="center" data-raw-text="G = \frac{Y_{\textrm{max}} - \bar{Y}}{s}" data-equation="eq:grubbs_test_statistic_max">
+```math
+G = \frac{Y_{\textrm{max}} - \bar{Y}}{s}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="G = \frac{Y_{\textrm{max}} - \bar{Y}}{s}" data-equation="eq:grubbs_test_statistic_max">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@d157db87026794d6fab579039be09a8916cad4e0/lib/node_modules/@stdlib/stats/incr/mgrubbs/docs/img/equation_grubbs_test_statistic_max.svg" alt="Grubbs' test statistic for testing whether the maximum value is an outlier.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -70,10 +82,14 @@ For a two-sided test, the hypothesis that a dataset does **not** contain an outl
 
 <!-- <equation class="equation" label="eq:grubbs_test_two_sided" align="center" raw="G > \frac{W-1}{\sqrt{W}} \sqrt{\frac{t^2_{\alpha/(2W),W-2}}{W - 2 + t^2_{\alpha/(2W),W-2}}}" alt="Two-sided Grubbs' test."> -->
 
-<div class="equation" align="center" data-raw-text="G > \frac{W-1}{\sqrt{W}} \sqrt{\frac{t^2_{\alpha/(2W),W-2}}{W - 2 + t^2_{\alpha/(2W),W-2}}}" data-equation="eq:grubbs_test_two_sided">
+```math
+G > \frac{W-1}{\sqrt{W}} \sqrt{\frac{t^2_{\alpha/(2W),W-2}}{W - 2 + t^2_{\alpha/(2W),W-2}}}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="G > \frac{W-1}{\sqrt{W}} \sqrt{\frac{t^2_{\alpha/(2W),W-2}}{W - 2 + t^2_{\alpha/(2W),W-2}}}" data-equation="eq:grubbs_test_two_sided">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@d157db87026794d6fab579039be09a8916cad4e0/lib/node_modules/@stdlib/stats/incr/mgrubbs/docs/img/equation_grubbs_test_two_sided.svg" alt="Two-sided Grubbs' test.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -83,10 +99,14 @@ For a one-sided test, the hypothesis that a dataset does **not** contain an outl
 
 <!-- <equation class="equation" label="eq:grubbs_test_one_sided" align="center" raw="G > \frac{W-1}{\sqrt{W}} \sqrt{\frac{t^2_{\alpha/W,W-2}}{W - 2 + t^2_{\alpha/W,W-2}}}" alt="One-sided Grubbs' test."> -->
 
-<div class="equation" align="center" data-raw-text="G > \frac{W-1}{\sqrt{W}} \sqrt{\frac{t^2_{\alpha/W,W-2}}{W - 2 + t^2_{\alpha/W,W-2}}}" data-equation="eq:grubbs_test_one_sided">
+```math
+G > \frac{W-1}{\sqrt{W}} \sqrt{\frac{t^2_{\alpha/W,W-2}}{W - 2 + t^2_{\alpha/W,W-2}}}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="G > \frac{W-1}{\sqrt{W}} \sqrt{\frac{t^2_{\alpha/W,W-2}}{W - 2 + t^2_{\alpha/W,W-2}}}" data-equation="eq:grubbs_test_one_sided">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@d157db87026794d6fab579039be09a8916cad4e0/lib/node_modules/@stdlib/stats/incr/mgrubbs/docs/img/equation_grubbs_test_one_sided.svg" alt="One-sided Grubbs' test.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -96,14 +116,30 @@ where `t` denotes the upper critical value of the _t_-distribution with `W-2` de
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-incr-mgrubbs
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import incrmgrubbs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgrubbs@deno/mod.js';
+var incrmgrubbs = require( '@stdlib/stats-incr-mgrubbs' );
 ```
 
 #### incrmgrubbs( window\[, options] )
@@ -131,7 +167,7 @@ The function accepts the following `options`:
 If provided an input value `x`, the accumulator function returns updated test results. If not provided an input value `x`, the accumulator function returns the current test results.
 
 ```javascript
-import rnorm from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@deno/mod.js';
+var rnorm = require( '@stdlib/random-base-normal' );
 
 var accumulator = incrmgrubbs( 3 );
 
@@ -192,8 +228,8 @@ The `print` method accepts the following options:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import sensorData from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@deno/mod.js';
-import incrmgrubbs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgrubbs@deno/mod.js';
+var sensorData = require( '@stdlib/datasets-suthaharan-single-hop-sensor-network' );
+var incrmgrubbs = require( '@stdlib/stats-incr-mgrubbs' );
 
 var data;
 var opts;
@@ -255,7 +291,7 @@ for ( i = 0; i < data.length; i++ ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/incr/grubbs`][@stdlib/stats/incr/grubbs]</span><span class="delimiter">: </span><span class="description">grubbs' test for outliers.</span>
+-   <span class="package-name">[`@stdlib/stats-incr/grubbs`][@stdlib/stats/incr/grubbs]</span><span class="delimiter">: </span><span class="description">grubbs' test for outliers.</span>
 
 </section>
 
@@ -270,7 +306,7 @@ for ( i = 0; i < data.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -314,7 +350,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -338,7 +374,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/grubbs]: https://github.com/stdlib-js/stats-incr-grubbs/tree/deno
+[@stdlib/stats/incr/grubbs]: https://github.com/stdlib-js/stats-incr-grubbs
 
 <!-- </related-links> -->
 
