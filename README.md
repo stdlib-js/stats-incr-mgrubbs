@@ -136,7 +136,7 @@ where `t` denotes the upper critical value of the _t_-distribution with `W-2` de
 To use in Observable,
 
 ```javascript
-incrmgrubbs = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgrubbs@umd/browser.js' )
+incrmgrubbs = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgrubbs@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -148,7 +148,7 @@ var incrmgrubbs = require( 'path/to/vendor/umd/stats-incr-mgrubbs/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgrubbs@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgrubbs@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -251,7 +251,7 @@ The `print` method accepts the following options:
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgrubbs@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgrubbs@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
