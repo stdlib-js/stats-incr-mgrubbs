@@ -127,30 +127,38 @@ where `t` denotes the upper critical value of the _t_-distribution with `W-2` de
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/stats-incr-mgrubbs
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var incrmgrubbs = require( '@stdlib/stats-incr-mgrubbs' );
+incrmgrubbs = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgrubbs@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var incrmgrubbs = require( 'path/to/vendor/umd/stats-incr-mgrubbs/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgrubbs@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.incrmgrubbs;
+})();
+</script>
 ```
 
 #### incrmgrubbs( window\[, options] )
@@ -238,9 +246,14 @@ The `print` method accepts the following options:
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var sensorData = require( '@stdlib/datasets-suthaharan-single-hop-sensor-network' );
-var incrmgrubbs = require( '@stdlib/stats-incr-mgrubbs' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgrubbs@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 var data;
 var opts;
@@ -275,6 +288,11 @@ for ( i = 0; i < data.length; i++ ) {
         console.log( r.print() );
     }
 }
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -385,7 +403,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/grubbs]: https://github.com/stdlib-js/stats-incr-grubbs
+[@stdlib/stats/incr/grubbs]: https://github.com/stdlib-js/stats-incr-grubbs/tree/umd
 
 <!-- </related-links> -->
 
