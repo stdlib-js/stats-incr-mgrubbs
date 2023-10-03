@@ -127,19 +127,30 @@ where `t` denotes the upper critical value of the _t_-distribution with `W-2` de
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-incr-mgrubbs
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import incrmgrubbs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgrubbs@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-mgrubbs/tags). For example,
-
-```javascript
-import incrmgrubbs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgrubbs@v0.1.0-esm/index.mjs';
+var incrmgrubbs = require( '@stdlib/stats-incr-mgrubbs' );
 ```
 
 #### incrmgrubbs( window\[, options] )
@@ -167,7 +178,7 @@ The function accepts the following `options`:
 If provided an input value `x`, the accumulator function returns updated test results. If not provided an input value `x`, the accumulator function returns the current test results.
 
 ```javascript
-import rnorm from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@esm/index.mjs';
+var rnorm = require( '@stdlib/random-base-normal' );
 
 var accumulator = incrmgrubbs( 3 );
 
@@ -227,14 +238,9 @@ The `print` method accepts the following options:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import sensorData from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@esm/index.mjs';
-import incrmgrubbs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgrubbs@esm/index.mjs';
+```javascript
+var sensorData = require( '@stdlib/datasets-suthaharan-single-hop-sensor-network' );
+var incrmgrubbs = require( '@stdlib/stats-incr-mgrubbs' );
 
 var data;
 var opts;
@@ -269,10 +275,6 @@ for ( i = 0; i < data.length; i++ ) {
         console.log( r.print() );
     }
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -315,7 +317,7 @@ for ( i = 0; i < data.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -345,8 +347,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-incr-mgrubbs.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-incr-mgrubbs
 
-[test-image]: https://github.com/stdlib-js/stats-incr-mgrubbs/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/stats-incr-mgrubbs/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/stats-incr-mgrubbs/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/stats-incr-mgrubbs/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-incr-mgrubbs/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-incr-mgrubbs?branch=main
@@ -383,7 +385,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/grubbs]: https://github.com/stdlib-js/stats-incr-grubbs/tree/esm
+[@stdlib/stats/incr/grubbs]: https://github.com/stdlib-js/stats-incr-grubbs
 
 <!-- </related-links> -->
 
