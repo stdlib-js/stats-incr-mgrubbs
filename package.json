@@ -60,7 +60,7 @@
   },
   "devDependencies": {
     "@stdlib/assert-is-function": "^0.1.1",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/datasets-herndon-venus-semidiameters": "^0.1.1",
     "@stdlib/datasets-suthaharan-single-hop-sensor-network": "^0.1.0",
     "@stdlib/random-base-normal": "^0.1.0",
