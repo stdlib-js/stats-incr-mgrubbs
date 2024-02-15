@@ -134,6 +134,11 @@ where `t` denotes the upper critical value of the _t_-distribution with `W-2` de
 ## Usage
 
 ```javascript
+import incrmgrubbs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgrubbs@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-mgrubbs/tags). For example,
+
+```javascript
 import incrmgrubbs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgrubbs@v0.2.0-esm/index.mjs';
 ```
 
@@ -229,7 +234,7 @@ The `print` method accepts the following options:
 <script type="module">
 
 import sensorData from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-suthaharan-single-hop-sensor-network@esm/index.mjs';
-import incrmgrubbs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgrubbs@v0.2.0-esm/index.mjs';
+import incrmgrubbs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgrubbs@esm/index.mjs';
 
 var data;
 var opts;
