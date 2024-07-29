@@ -54,7 +54,7 @@
     "@stdlib/math-base-special-roundn": "^0.2.2",
     "@stdlib/math-base-special-sqrt": "^0.2.2",
     "@stdlib/stats-base-dists-t-quantile": "^0.2.1",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/utils-define-read-only-accessor": "^0.2.2",
     "@stdlib/utils-define-read-only-property": "^0.2.2",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
