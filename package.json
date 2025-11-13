@@ -60,6 +60,7 @@
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
+    "@stdlib/array-base-zeros": "^0.2.2",
     "@stdlib/assert-is-function": "^0.2.2",
     "@stdlib/datasets-herndon-venus-semidiameters": "^0.2.2",
     "@stdlib/datasets-suthaharan-single-hop-sensor-network": "^0.2.2",
