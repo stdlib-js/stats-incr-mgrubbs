@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-16)
+## Unreleased (2026-08-02)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`70d8d85`](https://github.com/stdlib-js/stdlib/commit/70d8d851663c185a0217b37e352e473aae92d81a) - **chore:** clean-up [(#13675)](https://github.com/stdlib-js/stdlib/pull/13675) _(by Philipp Burckhardt)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
 -   [`a07ad1c`](https://github.com/stdlib-js/stdlib/commit/a07ad1c13b9d2428b8897f47c6c78c6bfb0a235d) - **bench:** refactor to use string interpolation in `stats/incr` [(#11394)](https://github.com/stdlib-js/stdlib/pull/11394) _(by Karan Anand)_
 
